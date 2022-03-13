@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+#cont{
+    display: grid;
+    grid-template-columns: repeat(4, 20vmin);
+    grid-template-rows: repeat(4, 20vmin);
+    background-color: rgb(69, 143, 143);
+    gap: 2vmin;
+    border: 2px solid white;
+    border-radius: 1vmin;
+    padding: 2vmin;
+    position: relative;
+}
+
+.cell{
+    background-color: rgb(85, 99, 99);
+    border-radius: 1vmin;
+}
